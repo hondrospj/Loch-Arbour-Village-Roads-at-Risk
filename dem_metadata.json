@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Loch Arbour Village DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Loch Arbour Village boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 963,
+  "height": 346,
+  "nodata": -999999,
+  "minMeters": 0,
+  "maxMeters": 6.774,
+  "meanMeters": 2.711,
+  "stdDevMeters": 1.566,
+  "minFeet": 0,
+  "maxFeet": 22.22440944873,
+  "webMercatorBounds": [
+    -8238632.739344,
+    4899478.688448001,
+    -8237165.127344,
+    4900005.992448
+  ],
+  "leafletBounds": [
+    [
+      40.2303957,
+      -74.0088971
+    ],
+    [
+      40.2340067,
+      -73.9957261
+    ]
+  ],
+  "files": {
+    "demCog": "loch_arbour_village_dem_5ft_cog.tif",
+    "hillshadeCog": "loch_arbour_village_hillshade_cog.tif",
+    "hillshadePng": "loch_arbour_village_hillshade.png",
+    "boundaryGeojson": "loch_arbour_village_boundary.geojson"
+  }
+}
